@@ -5,6 +5,8 @@ using Debug = UnityEngine.Debug;
 public class DevsList : MonoBehaviour {
     private string[] _developers = {
         "Vadim Kovalchuk",
+        "Olesia Pashko"
+        
         "Ekaterina Lenskaya",
     };
 
