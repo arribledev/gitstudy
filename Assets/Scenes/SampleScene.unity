@@ -1190,6 +1190,7 @@ GameObject:
   - component: {fileID: 1747017702}
   - component: {fileID: 1747017701}
   - component: {fileID: 1747017700}
+  - component: {fileID: 1747017704}
   m_Layer: 0
   m_Name: Katya
   m_TagString: Untagged
@@ -1271,6 +1272,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747017704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747017699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f51cbb2736ecb4faeb22f4edfd6860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1959413729
 GameObject:
   m_ObjectHideFlags: 0
