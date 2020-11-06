@@ -528,12 +528,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301683333}
-  m_LocalRotation: {x: 0.53229415, y: 0.08213147, z: 0.12848505, w: 0.83271176}
-  m_LocalPosition: {x: 0.603, y: 0.047, z: 0.193}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalRotation: {x: 0.53229415, y: 0.08213148, z: 0.12848504, w: 0.8327118}
+  m_LocalPosition: {x: 0.53900003, y: -0.36899996, z: 0.35599977}
+  m_LocalScale: {x: 0.15000002, y: 0.14999999, z: 1}
   m_Children: []
-  m_Father: {fileID: 1093550015}
-  m_RootOrder: 1
+  m_Father: {fileID: 683367493}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 59.927002, y: 33.089, z: 36.978}
 --- !u!65 &301683335
 BoxCollider:
@@ -626,7 +626,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1093550015}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &426854290
 BoxCollider:
@@ -780,6 +780,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &683367492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 683367493}
+  m_Layer: 0
+  m_Name: HandsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &683367493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683367492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.064, y: 0.416, z: -0.163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 301683334}
+  - {fileID: 1539794525}
+  m_Father: {fileID: 1093550015}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1093550014
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1093550015}
+  - component: {fileID: 1093550016}
   m_Layer: 0
   m_Name: Tkachenko
   m_TagString: Untagged
@@ -807,13 +840,26 @@ Transform:
   m_LocalPosition: {x: 5.74, y: 1, z: -0.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 683367493}
   - {fileID: 1616126685}
-  - {fileID: 301683334}
-  - {fileID: 1539794525}
   - {fileID: 426854289}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -68.566, z: 0}
+--- !u!114 &1093550016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093550014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2440f73f31ed78641a2ec3e5b42691e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _handsHolder: {fileID: 683367493}
+  _rotateSpeed: 150
 --- !u!1 &1345296502
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,12 +969,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539794524}
-  m_LocalRotation: {x: 0.53078425, y: -0.09138289, z: -0.14295779, w: 0.83034956}
-  m_LocalPosition: {x: -0.608, y: 0.047, z: 0.193}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalRotation: {x: 0.53078425, y: -0.09138293, z: -0.1429578, w: 0.83034956}
+  m_LocalPosition: {x: -0.6719998, y: -0.36899996, z: 0.35599995}
+  m_LocalScale: {x: 0.15000002, y: 0.15000002, z: 1}
   m_Children: []
-  m_Father: {fileID: 1093550015}
-  m_RootOrder: 2
+  m_Father: {fileID: 683367493}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 58.798004, y: -35.865, z: -40.205}
 --- !u!65 &1539794526
 BoxCollider:
@@ -1003,7 +1049,7 @@ GameObject:
   - component: {fileID: 1616126687}
   - component: {fileID: 1616126686}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Capsule_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1021,7 +1067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1093550015}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1616126686
 CapsuleCollider:
