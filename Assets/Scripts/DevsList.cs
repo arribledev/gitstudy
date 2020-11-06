@@ -13,7 +13,7 @@ public class DevsList : MonoBehaviour {
     }
 
     private void Update() {
-        Debug.LogWarning("All is ok!");
+        Debug.LogWarning("All is bad :(");
     }
 
 }
