@@ -9,6 +9,7 @@ public class DevsList : MonoBehaviour {
         
         "Ekaterina Lenskaya",
         "Alexander Tkachenko",
+        "Vlad Hryhorashchenko",
     };
 
     private void Start() {
