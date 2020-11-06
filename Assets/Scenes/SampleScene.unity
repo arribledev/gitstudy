@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 245540617}
   - component: {fileID: 245540616}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Olesia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
