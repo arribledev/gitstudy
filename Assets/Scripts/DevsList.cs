@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using UnityEngine;
+﻿using UnityEngine;
 using Debug = UnityEngine.Debug;
 
 public class DevsList : MonoBehaviour {
@@ -18,7 +17,7 @@ public class DevsList : MonoBehaviour {
     }
 
     private void Update() {
-        
+        Debug.LogWarning("All is ok!");
     }
 
 }
